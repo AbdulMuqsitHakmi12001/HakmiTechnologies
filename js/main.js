@@ -1,9 +1,7 @@
 $(document).ready(function () {
-  console.log("running1");
   $(".fa-bars").click(function () {
     $(this).toggleClass("fa-times");
     $(".navbar").toggleClass("nav-toggle");
-    console.log("running");
   });
 
   $(window).on("load scroll", function () {
